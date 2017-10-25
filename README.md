@@ -10,7 +10,7 @@ Each Branch i put  differents ways, since  Module Pattern until using es2015 mod
 ## Run the examples 
 
 
- -> It will be updated
+ -> It will be updated later
 
 
 ## Browser Support
@@ -31,7 +31,7 @@ At the moment what browser support browser :
 ## Docs / Links 
 
 
--> it will be updated
+-> it will be updated later
 
 
 
