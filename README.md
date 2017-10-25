@@ -1,4 +1,5 @@
-# es2015-native-modules 
+# es2015-native-module-loader 
+
 Showing how to use es2015+ Modules Loader in Browsers without the need to use babel or traceur or SystemJS tool
 
 status (on going)
