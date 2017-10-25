@@ -1,8 +1,9 @@
-# es2015-native-modules
+# es2015-native-modules 
 Showing how to use es2015+ Modules Loader in Browsers without the need to use babel or traceur or SystemJS tool
 
+status (on going)
 
-## HOW /  Demonstration 
+### HOW /  Demonstration 
 
 One branch using module Pattern (old way / oldCalc) without module loader
 
@@ -11,13 +12,13 @@ second branch using module loader and with simple functions
 third branch using modele load and Class way (using es2015 Class syntax sugar)
 
 
-## Run the examples 
+### Run the examples 
 
 
  -> It will be updated later
 
 
-## Browser Support
+### Browser Support
 
 At the moment what browser support native loader :
 
@@ -32,7 +33,7 @@ At the moment what browser support native loader :
 -> Edge: since 15 version, behind the Experimental JavaScript Features setting in about:flags
 
 
-## Docs / Links 
+### Docs / Links 
 
 
 -> it will be updated later
