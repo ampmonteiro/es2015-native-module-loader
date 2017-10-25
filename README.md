@@ -4,7 +4,11 @@ Showing how to use es2015+ Modules Loader in Browsers without the need to use ba
 
 ## HOW /  Demonstration 
 
-Each Branch i put  differents ways, since  Module Pattern until using es2015 module loader in browsers.
+One branch using module Pattern (old way / oldCalc) without module loader
+
+second branch using module loader and with simple functions
+
+third branch using modele load and Class way (using es2015 Class syntax sugar)
 
 
 ## Run the examples 
@@ -15,7 +19,7 @@ Each Branch i put  differents ways, since  Module Pattern until using es2015 mod
 
 ## Browser Support
 
-At the moment what browser support browser :
+At the moment what browser support native loader :
 
 -> Safari: since 10.1 version
 
