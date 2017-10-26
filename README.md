@@ -6,6 +6,9 @@ status (on going)
 
 ### HOW /  Demonstration 
 
+
+I use a simple example like a calculator with features such as sum and multiplication
+
 One branch using module Pattern (old way / oldCalc) without module loader
 
 second branch using module loader browser and with simple functions 

@@ -1,0 +1,21 @@
+{
+  "name": "es2015-native-module-loader",
+  "version": "1.0.0",
+  "description": "Showing how to use es2015+ Modules Loader in Browsers without the need to use babel or traceur or SystemJS tool",
+  "main": "main.js",
+  "scripts": {
+    "s": "lite-server"
+  },
+  "keywords": [
+    "es2015",
+    "Modules",
+    "es2015 modules",
+    "es2015 Browser module Loader",
+    "tutorial"
+  ],
+  "author": "ampmonteiro",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
