@@ -13,7 +13,7 @@ One branch using module Pattern (old way / oldCalc) without module loader
 
 second branch using module loader browser and with simple functions 
 
-third branch using modele load and Class way (using es2015 Class syntax sugar)
+third branch using module load and Class way (using es2015 Class syntax sugar)
 
 
 ### Run the examples 
