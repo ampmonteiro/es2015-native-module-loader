@@ -2,7 +2,7 @@
 
 Showing how to use es2015+ Modules Loader in Browsers without the need to use babel or traceur or SystemJS tool
 
-status (on going)
+status of OldCalc Branch: Finished -> Wih the code events with the respetive operation  from oldCalc modute (pattern)
 
 ### HOW /  Demonstration 
 
@@ -48,7 +48,10 @@ At the moment what browser support native loader :
 ### Docs / Links 
 
 
--> it will be updated later
+-> https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc 
+
+-> https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript 
+
 
 
 
