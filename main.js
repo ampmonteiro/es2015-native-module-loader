@@ -13,14 +13,14 @@ var res = document.querySelector("div#res");
 sum.addEventListener("click", 
                       function(){
 
-
+                      	console.log("sum");
 
 });
 
 mult.addEventListener("click", 
                       function(){
 
-
+                      	console.log("multi");
 
 });
 
