@@ -1,39 +1,45 @@
-// main file to run Old way with OldCalc
+// main file to run newCalc with es 2015+ syntax
 
-// selection the tag elements
+// get newCalc module
 
-var sum = document.querySelector("button#soma");
-var mult = document.querySelector("button#multi");
+import {sum,mult} from './newCalc.js';
+
+/*selection the tag elements and change name o var sum and mult
+because of import methods of module
+*/
+
+var btnSum = document.querySelector("button#soma");
+var btnMult = document.querySelector("button#multi");
 var res = document.querySelector("div#res");
 
 // the event listeners of two buttons to do the operations
 
-sum.addEventListener("click", 
+btnSum.addEventListener("click",
                       function(){
 
-  // getting values from the inputs and converting to integer                    	
-  var a = parseInt(document.querySelector("#a").value, 10); 
-  var b = parseInt(document.querySelector("#b").value, 10);
-  
+  // getting values from the inputs and converting to integer
+  const a = parseInt(document.querySelector("#a").value, 10);
+  const b = parseInt(document.querySelector("#b").value, 10);
+
   // clean element with the result value
   res.innerHTML ="";
 
   //make the sum operation from the module and update the element with the result
-  res.innerHTML = oldCalc.sum(a,b);
+  res.innerHTML = sum(a,b);
 
 });
 
-mult.addEventListener("click", 
+btnMult.addEventListener("click",
                       function(){
 
-  // getting values from the inputs and converting to integer                    	
-  var a = parseInt(document.querySelector("#a").value, 10); 
-  var b = parseInt(document.querySelector("#b").value, 10);
-  
+  // getting values from the inputs and converting to integer
+  const a = parseInt(document.querySelector("#a").value, 10);
+  const b = parseInt(document.querySelector("#b").value, 10);
+
   // clean element with the result value
   res.innerHTML ="";
 
   //make the sum operation from the module and update the element with the result
-  res.innerHTML = oldCalc.mult(a,b);
+  res.innerHTML = mult(a,b);
 
 });

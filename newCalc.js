@@ -7,10 +7,10 @@ with export key word, you are set which properties or methods are public
 
 export function sum(a,b) {
 
-  return a+n;
+  return a+b;
 }
 
-export function mult() {
+export function mult(a,b) {
 
   return a*b;
 }
