@@ -54,3 +54,5 @@ At the moment what browser support native loader :
 -> https://ponyfoo.com/articles/es6-modules-in-depth
 
 -> https://developers.google.com/web/updates/2017/09/nic61
+
+-> https://blogs.windows.com/msedgedev/2016/05/17/es6-modules-and-beyond/
