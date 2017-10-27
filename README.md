@@ -11,11 +11,11 @@ I use a simple example like a calculator with features such as sum and multiplic
 
 Master branch - use as template or start kit with few files
 
-One branch using module Pattern (old way / oldCalc) without module loader
+first branch ( oldCalc) - using module Pattern (old way / oldCalc) without module loader
 
-second branch using module loader browser and with simple functions
+second branch (newCalc) - using module loader browser and with simple functions and es2015+ syntax ( import / export)
 
-third branch using module loader Browser and Class way (using es2015 Class syntax sugar)
+third branch (calcClass) - using module loader Browser and Class way (using es2015 Class syntax sugar)
 
 
 ### Run the examples
