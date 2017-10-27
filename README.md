@@ -2,7 +2,7 @@
 
 Showing how to use es2015+ Modules Loader in Browsers without the need to use babel or traceur or SystemJS tool
 
-status of newCalc Branch (second Branch): Finished the Demonstration how add attribut module to script tag in index page as well as using import / export syntax
+status of newCalc Branch (second Branch): Finished the Demonstration how add attribute module to script tag in index page as well as using import / export syntax
 
 ### HOW /  Demonstration
 
