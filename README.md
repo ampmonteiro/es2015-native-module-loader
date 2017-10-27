@@ -2,7 +2,7 @@
 
 Showing how to use es2015+ Modules Loader in Browsers without the need to use babel or traceur or SystemJS tool
 
-status of newCalc Branch (second Branch): On going
+status of newCalc Branch ( third Branch): Finished the Demonstration how add attribut module to script tag in index page as well as using Class syntax
 
 ### HOW /  Demonstration
 
@@ -47,8 +47,4 @@ At the moment what browser support native loader :
 
 ### Docs / Links
 
-->it will be update
-
--> https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc
-
--> https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript
+-> https://developer.mozilla.org/pt-PT/docs/Web/JavaScript/Reference/Classes 
