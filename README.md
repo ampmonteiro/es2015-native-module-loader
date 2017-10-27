@@ -8,11 +8,13 @@ status of OldCalc Branch: Finished -> Wih the code events with the respetive ope
 
 I use a simple example like a calculator with features such as sum and multiplication
 
-One branch using module Pattern (old way / oldCalc) without module loader
+Master branch - use as template or start kit with few files
 
-second branch using module loader browser and with simple functions
+first branch ( oldCalc) - using module Pattern (old way / oldCalc) without module loader
 
-third branch using module loader Browser and Class way (using es2015 Class syntax sugar)
+second branch (newCalc) - using module loader browser and with simple functions and es2015+ syntax ( import / export)
+
+third branch (calcClass) - using module loader Browser and Class way (using es2015 Class syntax sugar)
 
 
 ### Run the examples
