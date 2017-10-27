@@ -1,4 +1,4 @@
-class Calc {
+export default class Calc {
   constructor() {
 
   }
