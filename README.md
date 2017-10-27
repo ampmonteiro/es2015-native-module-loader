@@ -48,8 +48,6 @@ At the moment what browser support native loader :
 
 ### Docs / Links
 
--> https://jakearchibald.com/2017/es-modules-in-browsers/
+-> https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc
 
--> https://ponyfoo.com/articles/es6-modules-in-depth
-
--> https://developers.google.com/web/updates/2017/09/nic61
+-> https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript
