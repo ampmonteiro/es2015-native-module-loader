@@ -2,7 +2,9 @@
 
 // get newCalc module
 
-import {sum,mult} from './newCalc.js';
+// import {sum,mult} from './newCalc.js'; or
+
+import * as Calc from './newCalc.js'; // with an alias
 
 /*selection the tag elements and change name o var sum and mult
 because of import methods of module
@@ -25,7 +27,8 @@ btnSum.addEventListener("click",
   res.innerHTML ="";
 
   //make the sum operation from the module and update the element with the result
-  res.innerHTML = sum(a,b);
+  //res.innerHTML = sum(a,b); -> withou an alias
+  res.innerHTML = Calc.sum(a,b);
 
 });
 
@@ -39,7 +42,8 @@ btnMult.addEventListener("click",
   // clean element with the result value
   res.innerHTML ="";
 
-  //make the sum operation from the module and update the element with the result
-  res.innerHTML = mult(a,b);
+  //make the mult operation from the module and update the element with the result
+  //res.innerHTML = Calc.mult(a,b); -> without an alias
+  res.innerHTML = Calc.mult(a,b);
 
 });
