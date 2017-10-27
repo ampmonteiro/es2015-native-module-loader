@@ -2,12 +2,14 @@
 
 Showing how to use es2015+ Modules Loader in Browsers without the need to use babel or traceur or SystemJS tool
 
-status of newCalc Branch (second Branch): On going
+status of newCalc Branch (second Branch): Finished the Demonstration how add attribut module to script tag in index page as well as using import / export syntax
 
 ### HOW /  Demonstration
 
 
 I use a simple example like a calculator with features such as sum and multiplication
+
+Master branch - use as template or start kit with few files
 
 One branch using module Pattern (old way / oldCalc) without module loader
 
