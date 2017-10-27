@@ -2,7 +2,8 @@
 
 Showing how to use es2015+ Modules Loader in Browsers without the need to use babel or traceur or SystemJS tool
 
-status (on going)
+status: - finished each branch
+        - missing the production of the video
 
 ### HOW /  Demonstration
 
@@ -50,4 +51,4 @@ At the moment what browser support native loader :
 ### Docs / Links
 
 
--> see the respetive resources, Docs or Links by selecting one of branches 
+-> see the respetive resources, Docs or Links by selecting one of branches
