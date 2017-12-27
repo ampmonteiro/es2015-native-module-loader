@@ -41,13 +41,13 @@ Inside of Main.js ( file where are call respetive Methods of the module)
 
 ``` JavaScript
 
-// ommited some code  
+// omited some code  
 // (...)
 
 sum.addEventListener("click",
                       function(){
 
-  // ommited some code  
+  // omited some code  
   // (...)                      
   // clean element with the result value
   res.innerHTML ="";
@@ -65,7 +65,7 @@ The last thing that is required, add a script tag to HTML with location of the f
 
 ``` HTML
 
-<!-- some code ommited -->
+<!-- some code omited -->
 
 
 <!-- Load Scripts or Modules -->
