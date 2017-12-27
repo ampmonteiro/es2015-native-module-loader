@@ -17,7 +17,7 @@ third branch using module loader Browser and Class way (using es2015 Class synta
 
 ### What is the content
 
-inside of classCalc File
+inside of calcClass File
 
 
 ``` JavaScript
@@ -44,11 +44,11 @@ Note: don't forget the extension file ( .js), whithout it will not load the modu
 
 ``` JavaScript
 
-// get classCalc module
+// get calcClass module
 
-// import {sum,mult} from './classCalc.js'; or
+// import {sum,mult} from './calcClass.js'; or
 
-// import * as Calc from './classCalc.js'; // with an alias
+// import * as Calc from './calcClass.js'; // with an alias
 
 // load as a class with default import
 
@@ -64,7 +64,7 @@ const myCalc = new Calc();
 btnSum.addEventListener("click",
                       function(){
 
-  // omited some CommandLine
+  // omited some Code
 
 
   // clean element with the result value
