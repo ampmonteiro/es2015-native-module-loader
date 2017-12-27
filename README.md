@@ -2,7 +2,7 @@
 
 Showing how to use es2015+ Modules Loader in Browsers without the need to use babel or traceur or SystemJS tool
 
-status of OldCalc Branch: Finished -> Wih the code events with the respetive operation  from oldCalc modute (pattern)
+status of OldCalc Branch: Finished -> add code events with the respetive operation  from oldCalc module (pattern)
 
 ### HOW /  Demonstration
 
@@ -16,6 +16,65 @@ second branch (newCalc) - using module loader browser and with simple functions 
 
 third branch (calcClass) - using module loader Browser and Class way (using es2015 Class syntax sugar)
 
+### What is the content
+
+Inside of OldCalc file ( see more by open the respetive file)
+
+``` JavaScript
+
+// Module Pattern  - the old way
+
+var oldCalc = (function(){
+
+    // definitions of Methods or properties
+
+
+    return {
+        // selected which Methods  are public
+    }
+
+})();
+
+```
+
+Inside of Main.js ( file where are call respetive Methods of the module)
+
+``` JavaScript
+
+// ommited some code  
+// (...)
+
+sum.addEventListener("click",
+                      function(){
+
+  // ommited some code  
+  // (...)                      
+  // clean element with the result value
+  res.innerHTML ="";
+
+//make the sum operation from the module and update the element with the result
+  res.innerHTML = oldCalc.sum(a,b);
+
+});
+
+// the operation mult is ommited, see the respetive file
+
+```
+
+The last thing that is required, add a script tag to HTML with location of the file ( in index.html file)
+
+``` HTML
+
+<!-- some code ommited -->
+
+
+<!-- Load Scripts or Modules -->
+<script src="oldCalc.js"></script>
+<script src="main.js"></script>
+
+</body>    
+</html>
+```
 
 ### Run the examples
 
