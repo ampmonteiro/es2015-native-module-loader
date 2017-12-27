@@ -17,6 +17,68 @@ second branch (newCalc) - using module loader browser and with simple functions 
 
 third branch (calcClass) - using module loader Browser and Class way (using es2015 Class syntax sugar)
 
+Inside of OldCalc file ( see more by open the respetive file)
+
+### What is the content
+
+insede of newCalc Fle
+
+``` JavaScript
+
+// methods with export key are public
+
+export function sum(a,b) {
+
+  return a+b;
+}
+
+export function mult(a,b) {
+
+  return a*b;
+}
+
+```
+
+Inside of main.js File
+
+```  JavaScript
+
+// get newCalc module
+
+// import {sum,mult} from './newCalc.js'; or
+
+import * as Calc from './newCalc.js'; // with an alias
+
+
+// omited some
+
+btnSum.addEventListener("click",
+                      function(){
+
+  // omited some code
+
+  // clean element with the result value
+  res.innerHTML ="";
+
+  //make the sum operation from the module and update the element with the result
+  //res.innerHTML = sum(a,b); -> without an alias
+  res.innerHTML = Calc.sum(a,b);
+
+});
+
+// omited some code, open the file to see all code
+
+```
+
+Insde of index.html file
+
+``` HTML
+
+<!-- omited some code -->
+<!--  Loading as type module -->
+<script type="module" src="main.js"></script>
+
+```  
 
 ### Run the examples
 

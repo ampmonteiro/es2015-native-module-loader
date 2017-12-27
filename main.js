@@ -27,7 +27,7 @@ btnSum.addEventListener("click",
   res.innerHTML ="";
 
   //make the sum operation from the module and update the element with the result
-  //res.innerHTML = sum(a,b); -> withou an alias
+  //res.innerHTML = sum(a,b); -> without an alias
   res.innerHTML = Calc.sum(a,b);
 
 });
