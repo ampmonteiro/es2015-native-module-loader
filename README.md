@@ -21,7 +21,7 @@ Inside of OldCalc file ( see more by open the respetive file)
 
 ### What is the content
 
-insede of newCalc Fle
+inside of newCalc Fle
 
 ``` JavaScript
 
