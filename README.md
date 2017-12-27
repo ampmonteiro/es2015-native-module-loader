@@ -15,6 +15,13 @@ second branch using module loader browser and with simple functions
 
 third branch using module loader Browser and Class way (using es2015 Class syntax sugar)
 
+### What is the content
+
+inside of classCalc Fle
+
+
+
+
 
 ### Run the examples
 
