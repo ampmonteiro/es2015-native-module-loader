@@ -25,7 +25,7 @@ insede of newCalc Fle
 
 ``` JavaScript
 
-// methods with export key are public
+// methods with export key word are public
 
 export function sum(a,b) {
 
