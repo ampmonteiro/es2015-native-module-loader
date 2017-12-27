@@ -17,10 +17,78 @@ third branch using module loader Browser and Class way (using es2015 Class synta
 
 ### What is the content
 
-inside of classCalc Fle
+inside of classCalc File
 
 
+``` JavaScript
 
+export default class Calc {
+  constructor() {
+
+  }
+
+  sum (a,b) {
+    return a+b;
+  }
+
+  mult (a,b) {
+    return a*b;
+  }
+}
+
+```
+
+inside of main.js File
+
+Note: don't forget the extension file ( .js), whithout it will not load the module
+
+``` JavaScript
+
+// get classCalc module
+
+// import {sum,mult} from './classCalc.js'; or
+
+// import * as Calc from './classCalc.js'; // with an alias
+
+// load as a class with default import
+
+import Calc from './calcClass.js';
+
+// omited some code
+
+// create object of type Calc
+const myCalc = new Calc();
+
+// the event listeners of two buttons to do the operations
+
+btnSum.addEventListener("click",
+                      function(){
+
+  // omited some CommandLine
+
+
+  // clean element with the result value
+  res.innerHTML ="";
+
+  //make the sum operation from the module and update the element with the result
+  // calling method sum of the object
+  res.innerHTML = myCalc.sum(a,b);
+
+});
+
+// omited more code, open the file to see all code
+
+```
+
+inside index.html
+
+``` HTML
+
+<!-- omited some code -->
+<!--  Loading as type module -->
+<script type="module" src="main.js"></script>
+
+```
 
 
 ### Run the examples

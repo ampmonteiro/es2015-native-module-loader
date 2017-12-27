@@ -1,6 +1,8 @@
 // main file to run newCalc with es 2015+ syntax
 
-// get newCalc module
+// get classCalc module
+
+//Note: don't forget the extension file ( .js), whithout the module will not load 
 
 // import {sum,mult} from './newCalc.js'; or
 
