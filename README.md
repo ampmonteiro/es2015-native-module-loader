@@ -46,10 +46,6 @@ Note: don't forget the extension file ( .js), whithout it will not load the modu
 
 // get calcClass module
 
-// import {sum,mult} from './calcClass.js'; or
-
-// import * as Calc from './calcClass.js'; // with an alias
-
 // load as a class with default import
 
 import Calc from './calcClass.js';
