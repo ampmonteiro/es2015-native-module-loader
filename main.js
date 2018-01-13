@@ -1,10 +1,6 @@
-// main file to run newCalc with es 2015+ syntax
+// main file to run calc as a Class with es 2015+ syntax
 
 // get calcClass module
-
-// import {sum,mult} from './calcClass.js'; or
-
-// import * as Calc from './calcClass.js'; // with an alias
 
 // load as a class with default import
 
