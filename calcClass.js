@@ -1,3 +1,8 @@
+
+// define module with es2015 class syntax
+
+// all methods and properties are public
+
 export default class Calc {
   constructor() {
 
