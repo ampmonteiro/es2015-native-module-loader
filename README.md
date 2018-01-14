@@ -2,8 +2,9 @@
 
 Showing how to use es2015+ Modules Loader in Browsers without the need to use babel or traceur or SystemJS tool
 
-status: - finished each branch
-        - missing the production of the video
+video: https://youtu.be/5m4v7qxFFAw
+
+presentation in pdf: see presentation-PDF folder
 
 ### HOW /  Demonstration
 
