@@ -118,3 +118,5 @@ At the moment what browser support native loader :
 -> https://developers.google.com/web/updates/2017/09/nic61
 
 -> https://blogs.windows.com/msedgedev/2016/05/17/es6-modules-and-beyond/
+
+-> https://www.sitepoint.com/understanding-es6-modules/
